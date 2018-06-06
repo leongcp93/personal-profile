@@ -1,0 +1,34 @@
+.picture-border{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+    height:250px;
+}
+
+.background{
+    background-color: #33e8af;
+}
+
+.name-content{
+    padding: 10px;
+    margin: 18px;
+    font-family: serif;
+    text-shadow:  4px 4px 4px #aaa;
+    color: #69ceaf;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.information-content{
+    background-color: #456aa5;
+    padding: 7px;
+    margin: 18px;
+    border-radius: 25px;
+
+}
+
+.picAndNameAlign{
+    width:300px;
+}
+
+
