@@ -1,8 +1,8 @@
 .picture-border{
     border-radius: 50%;
-    padding: 10px;
     margin: 20px;
     height:250px;
+    width: 250px;
 }
 
 .background{
@@ -12,11 +12,9 @@
 .name-content{
     padding: 10px;
     margin: 18px;
-    font-family: serif;
     text-shadow:  4px 4px 4px #aaa;
-    color: #69ceaf;
+    color: #ffffff;
     border-radius: 20px;
-    width: 300px;
 }
 
 .information-content{
@@ -24,11 +22,48 @@
     padding: 7px;
     margin: 18px;
     border-radius: 25px;
+    box-shadow:  4px 4px 4px #aaa;
 
 }
 
 .picAndNameAlign{
-    width:300px;
+    width:80%;
 }
 
+.studyInfo{
+    color: whitesmoke;
+    padding: 7px;
+    margin: 10px;
+}
 
+.content-display{
+    animation: 2s contDisplay forwards;
+}
+
+@keyframes contDisplay {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+table{
+    width: 100%
+}
+
+.whiteIcon{
+    color:whitesmoke;
+}
+
+.changeColor{
+    color: yellowgreen;
+}
+
+.changeColor:hover{
+    color: darkgreen;
+}
