@@ -30,6 +30,18 @@
     width:80%;
 }
 
+.btnAlignment{
+    margin: 25px;
+}
+
+.project{
+    color: whitesmoke;
+}
+
+.project:hover{
+    color: #aaa;
+}
+
 .studyInfo{
     color: whitesmoke;
     padding: 7px;
