@@ -6,92 +6,103 @@
 <meta name="keywords" content="Web Design and Development, Front End, Web, Mobile, Developer, Software Engineer, Software Developer"/>
 <link rel="icon" href="pictures/icon.png"/>
 <script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+        particlesJS.load('particles-js', 'particles.json', function(){
+            console.log('particles.json loaded...'); //checking script is loaded.
+        });
+</script>
+
 <title>Chen Pin Leong | Computer Science</title>
 <link rel="stylesheet" href="style.css"/>
 <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet" type='text/css'/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 <title>Chen Pin Leong (Patrick)</title>
 </head>
-<body class="background content-display">
-
-    <table>
-        <tr>
-            <th>
-            <div class="picAndNameAlign information-content">
-            <img src="pictures/patrick.png" class="picture-border">
-            <h3 class="name-content">Chen Pin Leong (Patrick)</h3>
-            <h3 class="name-content">Front-end Developer</h3>
-            </div>
-            </th>
-            <th>
+<body>
+    <div id="particles-js">
+     
+            <table>
+                    <tr>
+                        <th>
+                        <div class="picAndNameAlign information-content">
+                        <img src="pictures/patrick.png" class="picture-border">
+                        <h3 class="name-content">Chen Pin Leong (Patrick)</h3>
+                        <h3 class="name-content">Front-end Developer</h3>
+                        </div>
+                        </th>
+                        <th>
+                            <div class="information-content">
+                                <h2 class="studyInfo">Abit of myself</h2>
+                                <p class="studyInfo">A fresh graduate who seek for opportunity on learning different kind of JS framework and
+                                    follow up on different kind of technologies.</p>
+                                <h2 class="studyInfo">Favourite language</h2>
+                                <p class="studyInfo"> Proficient: Typescript, HTML, CSS</p>
+                                <p class="studyInfo">Experienced framework: AngularJS</p>
+                                <h2 class="studyInfo">What am I doing on my free time</h2>
+                                <ul class="studyInfo">
+                                    <li>Enhancing on web development skills.</li>
+                                    <li>Involve myself on social activities and networking people.</li>
+                                    <li>Enjoy on playing games.</li>
+                                </ul>
+                                
+                            </div>
+                            
+                        </th>
+                    </tr>
+                </table>
                 <div class="information-content">
-                    <h2 class="studyInfo">Abit of myself</h2>
-                    <p class="studyInfo">A fresh graduate who seek for opportunity on learning different kind of JS framework and
-                        follow up on different kind of technologies.</p>
-                    <h2 class="studyInfo">Favourite language</h2>
-                    <p class="studyInfo"> Proficient: Typescript, HTML, CSS</p>
-                    <p class="studyInfo">Experienced framework: AngularJS</p>
-                    <h2 class="studyInfo">What am I doing on my free time</h2>
-                    <ul class="studyInfo">
-                        <li>Enhancing on web development skills.</li>
-                        <li>Involve myself on social activities and networking people.</li>
-                        <li>Enjoy on playing games.</li>
-                    </ul>
+                    <h2 class="studyInfo">Education Record</h2>
+                    <table>
+                        <tr>
+                            <th><h3 class="studyInfo">Diploma</h3></th>
+                            <th><h3 class="studyInfo">Degree</h3></th>
+                        </tr>
+                        <tr>
+                            <td><p class="studyInfo">College: <a class="changeColor" href="https://newinti.edu.my/campuses/inti-international-college-subang/"><strong>INTI International College Subang</strong></a></p>
+                                <p class="studyInfo">Studied course: Diploma Information and Communication Technology</p>
+                                <p class="studyInfo">Graduated in Year: 2014 DEC</p>
+                            </td>
+                            <td><p class="studyInfo">University: <a class="changeColor" href="https://www.qut.edu.au/"><strong>QUT</strong></a></p>
+                                <p class="studyInfo">Studied course: Bechelor of IT Major in Computer Science</p>
+                                <p class="studyInfo">Graduated in Year: 2017 DEC</p>
+                            </td>
+                        </tr>
+                        
+                    </table>
                     
                 </div>
                 
-            </th>
-        </tr>
-    </table>
-    <div class="information-content">
-        <h2 class="studyInfo">Education Record</h2>
-        <table>
-            <tr>
-                <th><h3 class="studyInfo">Diploma</h3></th>
-                <th><h3 class="studyInfo">Degree</h3></th>
-            </tr>
-            <tr>
-                <td><p class="studyInfo">College: <a class="changeColor" href="https://newinti.edu.my/campuses/inti-international-college-subang/"><strong>INTI International College Subang</strong></a></p>
-                    <p class="studyInfo">Studied course: Diploma Information and Communication Technology</p>
-                    <p class="studyInfo">Graduated in Year: 2014 DEC</p>
-                </td>
-                <td><p class="studyInfo">University: <a class="changeColor" href="https://www.qut.edu.au/"><strong>QUT</strong></a></p>
-                    <p class="studyInfo">Studied course: Bechelor of IT Major in Computer Science</p>
-                    <p class="studyInfo">Graduated in Year: 2017 DEC</p>
-                </td>
-            </tr>
+                <div class="information-content">
+                    <h2 class="studyInfo">Projects</h2>
+                    <table>
+                            <td class="studyInfo">
+                                <h3 class="studyInfo"><a class="project" href="http://www.transport.hope-church.com.au">Transport Ministry</a></h3>
+                                <p class="studyInfo"><strong>Description:</strong></p>
+                                <p class="studyInfo">This project is use to manage students transport in HOPE church Brisbane. The framework used behind this project is Angular 6 with python as the backend.</p>
+                            </td>
+                        
+                    </table>
+                </div>
             
-        </table>
-        
+                <a href="./documents/Chen_Pin_Leong_Resume2018.pdf" target="_blank"><button class="btn btnAlignment">Resume</button></a>
+            
+                <div class="information-content">
+            
+               
+                            <th><h3 class="studyInfo">Contact information</h3>
+                            <a class="btn btn-link" href="mailto:patrickleongcp@gmail.com"><h2><i class="fa fa-envelope project"></i></h2></a>
+                            <a class="btn btn-link" href="https://github.com/leongcp93"><h2><i class="fa fa-github project"></i></h2></a>
+                            <a class="btn btn-link" href="https://www.facebook.com/patrick.leong.33"><h2><i class="fa fa-facebook-square project"></i></h2></a>
+                            <a class="btn btn-link" href="https://www.linkedin.com/in/patrick-leong-a82773148/"><h2><i class="fa fa-linkedin project"></i></h2></a>
+                        
+                            
+             
+            
+                </div>
     </div>
     
-    <div class="information-content">
-        <h2 class="studyInfo">Projects</h2>
-        <table>
-                <td class="studyInfo">
-                    <h3 class="studyInfo"><a class="project" href="http://www.transport.hope-church.com.au">Transport Ministry</a></h3>
-                    <p class="studyInfo"><strong>Description:</strong></p>
-                    <p class="studyInfo">This project is use to manage students transport in HOPE church Brisbane. The framework used behind this project is Angular 6 with python as the backend.</p>
-                </td>
-            
-        </table>
-    </div>
-
-    <a href="./documents/Chen_Pin_Leong_Resume2018.pdf" target="_blank"><button class="btn btnAlignment">Resume</button></a>
-
-    <div class="information-content">
-
-   
-                <th><h3 class="studyInfo">Contact information</h3>
-                <a class="btn btn-link" href="mailto:patrickleongcp@gmail.com"><h2><i class="fa fa-envelope project"></i></h2></a>
-                <a class="btn btn-link" href="https://github.com/leongcp93"><h2><i class="fa fa-github project"></i></h2></a>
-                <a class="btn btn-link" href="https://www.facebook.com/patrick.leong.33"><h2><i class="fa fa-facebook-square project"></i></h2></a>
-                <a class="btn btn-link" href="https://www.linkedin.com/in/patrick-leong-a82773148/"><h2><i class="fa fa-linkedin project"></i></h2></a>
-            
-                
- 
-
-    </div>
+    
 
     
 

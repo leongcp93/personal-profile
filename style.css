@@ -12,17 +12,16 @@
 .name-content{
     padding: 10px;
     margin: 18px;
-    text-shadow:  4px 4px 4px #aaa;
     color: #ffffff;
     border-radius: 20px;
 }
 
 .information-content{
-    background-color: #456aa5;
+    
     padding: 7px;
     margin: 18px;
     border-radius: 25px;
-    box-shadow:  4px 4px 4px #aaa;
+    
 
 }
 
@@ -78,4 +77,9 @@ table{
 
 .changeColor:hover{
     color: darkgreen;
+}
+
+#particles-js{
+    background:#3a1682;
+    height: 100%;
 }
