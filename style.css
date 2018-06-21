@@ -3,11 +3,10 @@
     margin: 20px;
     height:250px;
     width: 250px;
+    position: relative;
 }
 
-.background{
-    background-color: #33e8af;
-}
+
 
 .name-content{
     padding: 10px;
@@ -21,6 +20,8 @@
     padding: 7px;
     margin: 18px;
     border-radius: 25px;
+    position: relative;
+    
     
 
 }
@@ -80,6 +81,15 @@ table{
 }
 
 #particles-js{
-    background:#3a1682;
+    background:#1b1b1b;
     height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: .7;
+}
+
+.title{
+    background-color: rgb(31, 31, 31); 
+    opacity: .7;
+    border-radius: 20px;
 }
